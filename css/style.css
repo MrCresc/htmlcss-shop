@@ -1,0 +1,52 @@
+/* Proprietà per gli scontati del 30% */
+.meno30{
+  display: inline-block;
+  width: 300px;
+  height: 372px;
+  position: relative;
+}
+
+.meno30 p {
+  padding: 2px;
+  background-color: green;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  margin: 0;
+}
+/* Fine proprietà per gli scontati del 30% */
+
+/* Proprietà per gli scontati del 5% */
+.meno5{
+  display: inline-block;
+  width: 300px;
+  height: 372px;
+  position: relative;
+}
+
+.meno5 p {
+  padding: 2px;
+  background-color: red;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  margin: 0;
+}
+/* Fine proprietà per gli scontati del 5% */
+
+/* Proprietà per cuoricino-selettore a comparsa*/
+a {
+  display: none;
+  position: absolute;
+  font-size: 30px;
+  width: 100%;
+  bottom: 10px;
+  text-align: center;
+  color: red;
+  text-decoration: none;
+}
+
+div:hover a {
+  display: block;
+}
+/* Fine proprietà per cuoricino-selettore a comparsa*/
